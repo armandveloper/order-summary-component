@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .card {
-	@apply bg-red-500;
+	@apply bg-white w-full rounded-3xl overflow-hidden shadow-lg;
+}
+.card-body {
+	@apply p-4;
 }
