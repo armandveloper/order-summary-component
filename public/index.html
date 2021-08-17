@@ -10,8 +10,13 @@
 			sizes="32x32"
 			href="images/favicon-32x32.png"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="styles/style.css" />
-
 		<title>Order Summary Card</title>
 	</head>
 	<body
@@ -21,6 +26,7 @@
 			bg-cover
 			h-screen
 			flex flex-col
+			font-body
 		"
 	>
 		<div class="container mx-auto my-auto px-4 max-w-[25rem]">
@@ -37,13 +43,15 @@
 						You can now listen to millions of songs, audiobooks, and podcasts on
 						any device anywhere you like!
 					</span>
-					<div>
+					<div class="rounded-md bg-very-pale-blue flex items-center gap-4 p-3">
 						<img src="images/icon-music.svg" alt="Annual plan graphic" />
-						<div>
-							<p>Annual Plan</p>
-							<p>$59.99/year</p>
+						<div class="flex-grow">
+							<p class="m-0 font-bold dark-blue">Annual Plan</p>
+							<p class="m-0">$59.99/year</p>
 						</div>
-						<a href="#">Change</a>
+						<a class="bright-blue underline hover:no-underline" href="#"
+							>Change</a
+						>
 					</div>
 					<a href="#" class="btn btn-primary">Proceed to Payment</a
 					><a href="#" class="btn btn-transparent">Cancel Order</a>
