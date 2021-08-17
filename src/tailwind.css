@@ -27,8 +27,14 @@
 	@apply px-4 py-8;
 }
 .card-title {
-	@apply mt-0 mb-5 font-black text-3xl text-center dark-blue;
+	@apply mt-0 mb-5 font-black text-3xl text-center text-dark-blue;
 }
 .card-text {
-	@apply block mt-0 mb-5 text-center desaturated-blue;
+	@apply block mt-0 mb-5 text-center text-desaturated-blue;
+}
+.btn {
+	@apply block py-4 rounded-md cursor-pointer text-center font-bold text-desaturated-blue;
+}
+.btn-primary {
+	@apply bg-bright-blue text-white hover:opacity-80;
 }
