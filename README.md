@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/armcruz/order-summary-component)
-- Live Site URL: [View demo](hhttps://armcruz.github.io/order-summary-component)
+- Live Site URL: [View demo](https://armcruz.github.io/order-summary-component)
 
 ## My process
 
